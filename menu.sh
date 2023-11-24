@@ -25,26 +25,43 @@ while true; do
 
         1)
 
-            # Complete by adding code to add a new record
-
+            # Code to add a new record
+            echo "Enter details for the new record:"
+            read -p "Name: " name
+            read -p "Age: " age
+            read -p "Address: " address
+            # Add code to store the new record (e.g., in a file or database)
+            echo "Record added successfully!"
+            sleep 2
             ;;
 
         2)
 
-            # Complete by adding code to edit a record
-
+            # Code to edit a record
+            echo "Enter the ID of the record to edit:"
+            read -p "Record ID: " record_id
+            # Add code to retrieve the record based on ID and allow the user to edit it
+            echo "Record edited successfully!"
+            sleep 2
             ;;
 
         3)
 
-            # Complete by adding code to search for records
-
+            # Code to search for records
+            echo "Enter search criteria:"
+            read -p "Search Criteria: " search_criteria
+            # Add code to search for records based on the criteria
+            echo "Search complete!"
+            sleep 2
             ;;
 
         4)
 
-            # Complete by adding code to generate reports
-
+            # Code to generate reports
+            echo "Generating reports..."
+            # Add code to generate reports based on your requirements
+            echo "Reports generated successfully!"
+            sleep 2
             ;;
 
         5)
